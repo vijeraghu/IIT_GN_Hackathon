@@ -16,43 +16,43 @@ import pandas as pd
 import numpy as np
 import os
 
-# Load the saved model
+Load the saved model
 loaded_model = joblib.load('models/sector_income_model.pkl')
 
-# Extract components from the loaded model
+Extract components from the loaded model
 models = loaded_model['models']
 feature_info = loaded_model['feature_info']
 
-Step 2: Load Your Test Data
+**Step 2: Load Your Test Data**
 
-# Path to your test data CSV file
+Path to your test data CSV file
 test_data_path = 'path/to/your/test_data.csv'
 
-# Load the test data
+ Load the test data
 test_df = pd.read_csv(test_data_path)
 
-Step 3: Make Predictions
+**Step 3: Make Predictions**
 
 from your_original_script import predict_for_new_data  # Import if in separate file
 
-# Make predictions
-# Option 1: Using the path to the CSV file
+ Make predictions
+Option 1: Using the path to the CSV file
 result_df = predict_for_new_data(models, feature_info, test_data_path)
 
 **Step 4: Save the Predictions**
 
-# Create a directory for results if it doesn't exist
+Create a directory for results if it doesn't exist
 if not os.path.exists('predictions'):
     os.makedirs('predictions')
 
-# Save the predictions to a CSV file
+ Save the predictions to a CSV file
 result_df.to_csv('predictions/test_predictions.csv', index=False)
 
 print("Predictions saved to 'predictions/test_predictions.csv'")
 
 **Step 5: (Optional) Evaluate the Predictions if You Have Ground Truth**
 
-# If your test data contains the actual TotalExpense values
+If your test data contains the actual TotalExpense values
 if 'TotalExpense' in test_df.columns:
     from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
     
