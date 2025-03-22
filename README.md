@@ -49,6 +49,8 @@ After you provide your details, the system will process the data and display you
 Conclusion
 This project has been developed to be transparent and easy to use. Whether you are a researcher interested in the technical aspects of the model or an end user seeking a quick prediction, this guide provides clear instructions for each process. Please follow the steps carefully to achieve the desired outcomes.
 
+
+Contributions:
 3.1 Anirudh Chauhan
 
 Name: Anirudh Chauhan
