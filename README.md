@@ -49,53 +49,52 @@ After you provide your details, the system will process the data and display you
 Conclusion
 This project has been developed to be transparent and easy to use. Whether you are a researcher interested in the technical aspects of the model or an end user seeking a quick prediction, this guide provides clear instructions for each process. Please follow the steps carefully to achieve the desired outcomes.
 
-### 3.1 Japsahaj Kaur*  
-- *Name:* Japsahaj Kaur  
-- *Email:* japsahaj.kaur@plaksha.edu.in  
-- *Phone:* 9728000013  
-- *Institution:* Plaksha University  
-- *Major:* Computer Science and Artificial Intelligence  
-- *Year:* 2026  
-- *Contribution:* Worked on prediction of Individual Expenses  
+3.1 Anirudh Chauhan
 
+Name: Anirudh Chauhan
+Email: anirudh.chauhan@plaksha.edu.in
+Phone: 9548916156
+Institution: Plaksha University
+Major: Computer Science and Artificial Intelligence
+Year: 2026
+Contribution: Training and testing different ML models
 
-### 3.2 Rishav Kumar  
-- *Name:* Rishav Kumar  
-- *Email:* rishav.kumar@plaksha.edu.in  
-- *Phone:* 8709490996  
-- *Institution:* Plaksha University  
-- *Major:* Computer Science and Artificial Intelligence  
-- *Year:* 2026  
-- *Contribution:* Training and testing on different models  
+3.2 Ayush Sharma
 
+Name: Ayush Sharma
+Email: ayush.sharma1@plaksha.edu.in
+Phone: 8235853952
+Institution: Plaksha University
+Major: Computer Science and Artificial Intelligence
+Year: 2026
+Contribution: Preprocessing and Frontend
 
+3.3 Japsahaj Kaur
 
-### 3.3 Ayush Sharma  
-- *Name:* Ayush Sharma  
-- *Email:* ayush.sharma1@plaksha.edu.in  
-- *Phone:* 8235853952  
-- *Institution:* Plaksha University  
-- *Major:* Computer Science and Artificial Intelligence  
-- *Year:* 2026  
-- *Contribution:* Preprocessing and Frontend  
+Name: Japsahaj Kaur
+Email: japsahaj.kaur@plaksha.edu.in
+Phone: 9728000013
+Institution: Plaksha University
+Major: Computer Science and Artificial Intelligence
+Year: 2026
+Contribution: Worked on prediction of Individual Expenses
 
+3.4 Rishav Kumar
 
+Name: Rishav Kumar
+Email: rishav.kumar@plaksha.edu.in
+Phone: 8709490996
+Institution: Plaksha University
+Major: Computer Science and Artificial Intelligence
+Year: 2026
+Contribution: Training and testing on different models
 
-### 3.4 Anirudh Chauhan  
-- *Name:* Anirudh Chauhan  
-- *Email:* anirudh.chauhan@plaksha.edu.in  
-- *Phone:* 9548916156  
-- *Institution:* Plaksha University  
-- *Major:* Computer Science and Artificial Intelligence  
-- *Year:* 2026  
-- *Contribution:* Training and testing different ML models  
+3.5 Vijeta Raghuvanshi
 
-
-### 3.5 Vijeta Raghuvanshi  
-- *Name:* Vijeta Raghuvanshi  
-- *Email:* vijeta.raghuvanshi@plaksha.edu.in  
-- *Phone:* 8171227010  
-- *Institution:* Plaksha University  
-- *Major:* Computer Science and Artificial Intelligence  
-- *Year:* 2026  
-- *Contribution:* Dataset Preprocessing and Feature Engineering
+Name: Vijeta Raghuvanshi
+Email: vijeta.raghuvanshi@plaksha.edu.in
+Phone: 8171227010
+Institution: Plaksha University
+Major: Computer Science and Artificial Intelligence
+Year: 2026
+Contribution: Dataset Preprocessing and Feature Engineering
