@@ -4,31 +4,78 @@ Hack The Future - 2025
 Monthly Per Capita Expenditure Prediction Project: User Guide
 This guide explains how to use our monthly per capita expenditure prediction project. It is divided into two sections: one for users interested in replicating the model and another for users who wish to obtain a prediction.
 
-For Researchers and Developers
+**For Researchers and Developers**
 1. Dataset Access
 Action Required:
 Download the datasets provided with the project.
-Instructions:
-The datasets are available in common formats (such as CSV or JSON). You can either import them directly into your programming environment or save them locally for further analysis.
-2. Install Dependencies
-Action Required:
-Ensure that all required Python libraries are installed on your system.
-Instructions:
-A list of dependencies is provided in the project documentation. You may use a command like pip install -r requirements.txt to install all libraries simultaneously.
-3. Running the Code
-Action Required:
-Follow the provided code examples to run the prediction model.
-Instructions:
-The code is well-documented with step-by-step instructions. Review the comments in the code to understand each part of the process and how to replicate the model successfully.
 
+**Instructions:
+Step 1: Load the Saved Model**
+import joblib
+import pandas as pd
+import numpy as np
+import os
 
-For End Users
-1. Visit the Website
+# Load the saved model
+loaded_model = joblib.load('models/sector_income_model.pkl')
+
+# Extract components from the loaded model
+models = loaded_model['models']
+feature_info = loaded_model['feature_info']
+
+Step 2: Load Your Test Data
+
+# Path to your test data CSV file
+test_data_path = 'path/to/your/test_data.csv'
+
+# Load the test data
+test_df = pd.read_csv(test_data_path)
+
+Step 3: Make Predictions
+
+from your_original_script import predict_for_new_data  # Import if in separate file
+
+# Make predictions
+# Option 1: Using the path to the CSV file
+result_df = predict_for_new_data(models, feature_info, test_data_path)
+
+**Step 4: Save the Predictions**
+
+# Create a directory for results if it doesn't exist
+if not os.path.exists('predictions'):
+    os.makedirs('predictions')
+
+# Save the predictions to a CSV file
+result_df.to_csv('predictions/test_predictions.csv', index=False)
+
+print("Predictions saved to 'predictions/test_predictions.csv'")
+
+**Step 5: (Optional) Evaluate the Predictions if You Have Ground Truth**
+
+# If your test data contains the actual TotalExpense values
+if 'TotalExpense' in test_df.columns:
+    from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+    
+    # Calculate metrics
+    mse = mean_squared_error(test_df['TotalExpense'], result_df['Predicted_TotalExpense'])
+    rmse = np.sqrt(mse)
+    mae = mean_absolute_error(test_df['TotalExpense'], result_df['Predicted_TotalExpense'])
+    r2 = r2_score(test_df['TotalExpense'], result_df['Predicted_TotalExpense'])
+    
+    print(f"RMSE: {rmse:.2f}")
+    print(f"MAE: {mae:.2f}")
+    print(f"R²: {r2:.4f}")
+
+**For End Users**
+
+**1. Visit the Website**
 Action Required:
 Click the provided link to access our website.
 Instructions:
 The website is designed to be user-friendly, allowing you to obtain your prediction without the need to install any software.
-2. Input Your Details
+
+**2. Input Your Details**
+
 Required Information:
 Sector: The sector in which you live.
 State: Your state of residence.
@@ -41,7 +88,9 @@ Internet Usage: The proportion of household members who use the internet.
 Online Purchases: The number of online purchases made in the last 365 days.
 Instructions:
 Fill in the required fields with the relevant information. This data is used to generate your monthly per capita expenditure prediction.
-3. Obtain Your Prediction
+
+**3. Obtain Your Prediction**
+
 Action Required:
 Submit the information on the website.
 Instructions:
@@ -50,7 +99,7 @@ Conclusion
 This project has been developed to be transparent and easy to use. Whether you are a researcher interested in the technical aspects of the model or an end user seeking a quick prediction, this guide provides clear instructions for each process. Please follow the steps carefully to achieve the desired outcomes.
 
 
-Contributions:
+**Contributions:**
 
 
 3.1 Anirudh Chauhan
