@@ -51,6 +51,8 @@ This project has been developed to be transparent and easy to use. Whether you a
 
 
 Contributions:
+
+
 3.1 Anirudh Chauhan
 
 Name: Anirudh Chauhan
