@@ -1,5 +1,6 @@
 # IIT_GN_Hackathon
 Hack The Future - 2025
+The link of Github Repo is https://github.com/vijeraghu/IIT_GN_Hackathon 
 
 Monthly Per Capita Expenditure Prediction Project: User Guide
 This guide explains how to use our monthly per capita expenditure prediction project. It is divided into two sections: one for users interested in replicating the model and another for users who wish to obtain a prediction.
