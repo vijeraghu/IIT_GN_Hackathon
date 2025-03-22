@@ -9,8 +9,9 @@ This guide explains how to use our monthly per capita expenditure prediction pro
 Action Required:
 Download the datasets provided with the project.
 
-**Instructions:
-Step 1: Load the Saved Model**
+**Instructions:**
+
+**Step 1: Load the Saved Model**
 import joblib
 import pandas as pd
 import numpy as np
