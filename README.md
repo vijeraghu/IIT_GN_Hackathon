@@ -4,7 +4,7 @@ Hack The Future - 2025
 Monthly Per Capita Expenditure Prediction Project: User Guide
 This guide explains how to use our monthly per capita expenditure prediction project. It is divided into two sections: one for users interested in replicating the model and another for users who wish to obtain a prediction.
 
-**For Researchers and Developers**
+#**For Researchers and Developers**
 1. Dataset Access
 Action Required:
 Download the datasets provided with the project.
@@ -66,7 +66,7 @@ if 'TotalExpense' in test_df.columns:
     print(f"MAE: {mae:.2f}")
     print(f"R²: {r2:.4f}")
 
-**For End Users**
+#**For End Users**
 
 **1. Visit the Website**
 Action Required:
