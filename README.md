@@ -68,38 +68,6 @@ if 'TotalExpense' in test_df.columns:
     print(f"MAE: {mae:.2f}")
     print(f"R²: {r2:.4f}")
 
-#**For End Users**
-
-**1. Visit the Website**
-Action Required:
-Click the provided link to access our website.
-Instructions:
-The website is designed to be user-friendly, allowing you to obtain your prediction without the need to install any software.
-
-**2. Input Your Details**
-
-Required Information:
-Sector: The sector in which you live.
-State: Your state of residence.
-Religion: Your religious affiliation.
-Social Group: Your social group classification.
-Household Size: The number of individuals in your household.
-Asset Ownership: Information about the assets you own.
-Education Level: Your level of education.
-Internet Usage: The proportion of household members who use the internet.
-Online Purchases: The number of online purchases made in the last 365 days.
-Instructions:
-Fill in the required fields with the relevant information. This data is used to generate your monthly per capita expenditure prediction.
-
-**3. Obtain Your Prediction**
-
-Action Required:
-Submit the information on the website.
-Instructions:
-After you provide your details, the system will process the data and display your monthly per capita expenditure prediction.
-Conclusion
-This project has been developed to be transparent and easy to use. Whether you are a researcher interested in the technical aspects of the model or an end user seeking a quick prediction, this guide provides clear instructions for each process. Please follow the steps carefully to achieve the desired outcomes.
-
 
 **Contributions:**
 
